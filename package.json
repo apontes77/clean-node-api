@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/apontes77/clean-node-api/issues"
   },
-  "homepage": "https://github.com/apontes77/clean-node-api#readme"
+  "homepage": "https://github.com/apontes77/clean-node-api#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
 }
