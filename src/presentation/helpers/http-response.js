@@ -22,9 +22,10 @@ module.exports = class httpResponse {
     }
   }
 
-  static OK () {
+  static OK (data) {
     return {
-      statusCode: 200
+      statusCode: 200,
+      body: data
     }
   }
 }

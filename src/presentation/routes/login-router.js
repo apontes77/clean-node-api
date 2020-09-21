@@ -20,6 +20,6 @@ module.exports = class LoginRouter {
     if (!accessToken) {
       return HttpResponse.unauthorizedError()
     }
-    return HttpResponse.OK()
+    return HttpResponse.OK({ accessToken })
   }
 }
