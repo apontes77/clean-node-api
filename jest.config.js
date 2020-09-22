@@ -3,5 +3,6 @@
 
 module.exports = {
   coverageProvider: 'coverage',
-  testEnvironment: 'node'
+  testEnvironment: 'node',
+  collectCoverageFrom: ['**/src/**/*.js']
 }
